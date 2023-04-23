@@ -1,12 +1,21 @@
-body {
-
-}
 img#profile {
     height: 200px;
     width: 200px;
     float: right;
 }
+img#silly {
+    height: 200px;
+    width: 200px;
+    float: right;
+    display: none;
+}
+body img#silly:hover {
+    display: block;
+}
 div#hobbies img {
-    height: 500px;
-    width: 500px;
+    height: 300px;
+    width: 300px;
+}
+div#hobbies figcaption {
+    width: 300px;
 }
